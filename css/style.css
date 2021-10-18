@@ -47,16 +47,15 @@ img {
     width: 100%;
 }
 
-.img {
-    z-index: 2;
-}
-
 .under-img{
     position: absolute;
+    display: none;
 }
 
-.under-img:hover {
-    display: none;
+.column-sx:hover .under-img,
+.column-dx:hover .under-img,
+.column-mid:hover .under-img {
+    display: inline-block;
 }
 /* End Images */
 
