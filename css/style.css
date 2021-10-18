@@ -9,6 +9,7 @@ html {
     font-size: 100%;
 }
 
+/* Float and Positions */
 .clearfix::after {
     content: '';
     display: table;
@@ -28,6 +29,13 @@ html {
     position: relative;
 }
 
+.absolute {
+    position: absolute;
+}
+
+/* End Float and Positions */
+
+/* Images */
 img {
     width: 100%;
 }
@@ -43,7 +51,9 @@ img {
 .under-img:hover {
     display: none;
 }
+/* End Images */
 
+/* Decorations */
 .heart{
     width: 50px;
     height: 50px;
@@ -65,8 +75,4 @@ img {
     background-color: forestgreen;
     bottom: 5em;
     left: 2.5em;
-}
-
-.absolute {
-    position: absolute;
 }
